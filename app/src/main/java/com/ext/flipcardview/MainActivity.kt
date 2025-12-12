@@ -19,11 +19,17 @@ class MainActivity : AppCompatActivity() {
         }
         val card = findViewById<FlipCardView>(R.id.flipCard)
 
-        card.setFrontView(R.layout.front_card)
-        card.setBackView(R.layout.back_card)
+        val view1 = layoutInflater.inflate(R.layout.front_card, null)
+        val view2 = layoutInflater.inflate(R.layout.back_card, null)
+        val view3 = layoutInflater.inflate(R.layout.third_card, null)
+
+        card.addCard(view1)
+        card.addCard(view2)
+        card.addCard(view3)
+
 
         card.setOnClickListener {
-            card.flip(500)
+            card.nextCard()
         }
     }
 }
