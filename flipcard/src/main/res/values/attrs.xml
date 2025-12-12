@@ -1,0 +1,32 @@
+<resources>
+
+    <declare-styleable name="FlipCardView">
+
+        <!-- 0 = horizontal (default), 1 = vertical -->
+        <attr name="flipDirection" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <!-- Flip duration in ms -->
+        <attr name="flipDuration" format="integer" />
+
+        <!-- Enable or disable shadow -->
+        <attr name="flipShadow" format="boolean" />
+
+        <!-- For horizontal flips -->
+        <attr name="flipHorizontalSide" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+
+        <!-- For vertical flips -->
+        <attr name="flipVerticalSide" format="enum">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+        </attr>
+
+
+    </declare-styleable>
+
+</resources>
