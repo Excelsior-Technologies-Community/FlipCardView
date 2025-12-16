@@ -20,12 +20,14 @@ Works like a real-world card deck — perfect for quizzes, flashcards, onboardin
 
 ## Demo
 
-<p align="center">
-  <img src="assets/demo1.gif" width="220" />
-  <img src="assets/demo2.gif" width="220" />
-  <img src="assets/demo3.gif" width="220" />
-  <img src="assets/demo4.gif" width="220" />
-</p>
+<table align="center">
+  <tr>
+    <td><img src="assets/demo1.gif" width="220" /></td>
+    <td><img src="assets/demo2.gif" width="220" /></td>
+    <td><img src="assets/demo3.gif" width="220" /></td>
+    <td><img src="assets/demo4.gif" width="220" /></td>
+  </tr>
+</table>
 
 
 
