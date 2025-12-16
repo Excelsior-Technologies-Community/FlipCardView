@@ -62,7 +62,7 @@ dependencyResolutionManagement {
 Add the library dependency:
 
 ```
-implementation("com.github.Excelsior-Technologies-Community:flipcard:1.0.0")
+implementation("com.github.Excelsior-Technologies-Community:FlipCardView:1.0.0")
 ```
 ---
 
